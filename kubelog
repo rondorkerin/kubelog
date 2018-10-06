@@ -1,0 +1,5 @@
+#!/bin/bash
+
+query=$1
+
+kubectl logs `kubectl get pods | grep --line-buffered $query | uniq | awk '{print $1}' -`
