@@ -1,3 +1,3 @@
 #!/bin/bash
 
-cp kubelog /usr/bin
+cp kubelog /usr/local/bin

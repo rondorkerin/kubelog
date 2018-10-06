@@ -1,7 +1,11 @@
 # Kubelog
 
-Usage: `kubelog POD_REGEX`
+Outputs the logs for a particular pod matching a regex in your kube cluster
 
-Outputs the log for a particular pod matching a regex in your kube cluster
+No more `kubectl get pods | grep REGEX`
 
-Installation: `./install.sh`
+## Installation
+`git clone https://github.com/sbryant31/kubelog && ./kubelog/install.sh`
+
+## Usage
+`kubelog POD_REGEX`
